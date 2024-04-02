@@ -1,53 +1,77 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
-    
+    margin-left: 52px;
 
 }
-.icons a{
+
+.icons a {
     margin-left: 15px;
+    border-radius: 5px;
+    width: 0px;
+   background-color: rgba(0, 81, 255, 0.918);
+    color: #fff;
 }
-#doctors{
+
+#doctors {
     padding-top: 6rem;
 }
-#doctors header{
-   
-}
-.sub-heading{
+.sub-heading {
     font-size: 14px;
     font-weight: 700;
-     color: aqua;
-    text-transform: uppercase; 
+    color: rgba(5, 247, 255, 0.863);
+    text-transform: uppercase;
     margin-bottom: 5px;
     letter-spacing: 1px;
-
+ 
 }
-.container{
+
+.container {
     width: 85%;
     max-width: 1140px;
     margin-inline: auto;
 }
-.doctors{
-    display: inline-block;
-    width: calc(65%/4);
-    background-color: #fff;
-    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.01) ;
 
+.doctors {
+    display: inline-block;
+    width: calc(85%/4);
+    background-color: #fff;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    margin-top: 150px;
+    text-align: center;
 }
-.doctors img{
+
+.doctors:hover {
+    background-color: rgb(2, 171, 223);
+    color: #f8f9fa;
+   
+}
+.doctors img:hover{
+     box-shadow: 0 0 50px;
+}
+
+.doctors img {
     border-radius: 50% 0 50% 50%;
     border: 10px solid #f8f9fa;
+    margin-top: -60px;
+    width: 200px;
+  box-shadow: 0 0 5px;
 }
-.jmg{
+
+.jmg {
     width: 100%;
+    display: inline-block;
 
 }
-.main-heading{
+
+.main-heading {
     font-size: 38px;
     font-weight: 500;
     line-height: 1.4;
