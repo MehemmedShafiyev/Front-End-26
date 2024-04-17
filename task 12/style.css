@@ -38,37 +38,57 @@ li {
     font-weight: bold;
     margin-left: -150px;
 }
-.nav ul li:hover{
-    border-bottom: 3px solid rgb(3, 255, 3);
-    transition: 0.05s;
-}
-.main{
+
+.nav ul li:hover {}
+
+.main {
     margin-left: 250px;
     max-width: 600px;
     font-size: 19px;
 }
-.sam{
+
+.sam {
     background-color: rgb(216, 216, 216);
     font-size: 17px;
     width: 150px;
     margin-left: 5px;
 }
+
 .box {
     background-color: rgb(241, 241, 241);
     width: 180px;
     height: 600px;
     margin-left: 850px;
     margin-top: -600px;
-      
+
 }
-.ul{
-    display: inline;
-    
+
+.ul {
+   display: inline; 
+
 }
-.tt{
+
+.tt {
     text-align: center;
 }
-.ul li{
+
+.ul li {
     font-size: 17px;
     margin-top: -7px;
+
+}
+
+.sub-menu {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    padding: 15px;
+   
+}
+ul.menu{
+    background-color: transparent;
+    box-shadow: 0 0  3px -1px black;
+    padding: 10px;
+    list-style-type: none;
+
 }

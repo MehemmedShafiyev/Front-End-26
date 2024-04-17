@@ -1,27 +1,31 @@
-*{
+* {
     margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
- h1{
+
+h1 {
     text-align: center;
     margin-right: 375px;
     margin-top: 20px;
     font-weight: bold;
 }
-table{
+
+table {
     margin-top: 50px;
     border-collapse: collapse;
     border-color: inherit;
     background-color: #f0fff8;
     font-size: 20px;
-    
+
 }
-td{
+
+td {
     border: 1px solid #80ced6;
     padding: 10px;
 }
-p{
+
+p {
     border: 1px solid #80ced6;
     padding: 30px;
     margin-top: 20px;
@@ -33,13 +37,15 @@ p{
     background-color: #f0fff8;
 
 }
-h3{
+
+h3 {
     font-weight: bold;
     font-size: 24px;
     margin-top: 20px;
     margin-left: 340px;
 }
-ul{
+
+ul {
     border: 1px solid #80ced6;
     padding: 30px;
     margin-top: 20px;
@@ -49,5 +55,5 @@ ul{
     font-weight: 500;
     border-radius: 15px;
     background-color: #f0fff8;
- 
+
 }

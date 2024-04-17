@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgba(0, 0, 0, 0.411);
     z-index: 100;
-    
+
 }
 
 .hd-img {
@@ -49,7 +50,7 @@ body{
     height: 60px;
     background-color: rgba(65, 65, 65, 0.589);
     display: flex;
-    
+
     padding: 20px;
     box-shadow: 0 0 5px;
 }
@@ -62,41 +63,45 @@ body{
     width: 150px;
     margin-left: 0px;
     margin-top: 15px;
-    background-color:  rgba(102, 102, 102, 0.534);
+    background-color: rgba(102, 102, 102, 0.534);
     box-shadow: 0 0 5px black;
     color: #fff;
 }
 
 .nav #a:hover .na {
     transition: 0.3s;
-   visibility: visible;
+    visibility: visible;
     margin-top: 7px;
 }
-.nav #a{
-   width: 150px;
-   text-align: center;  
+
+.nav #a {
+    width: 150px;
+    text-align: center;
 
 }
 
-.nav #a:hover{
-   
+.nav #a:hover {
+
     border-bottom: 2px solid #fff;
 }
+
 a {
     font-size: 20px;
     font-weight: bold;
-    
+
 }
 
 #logo {
     margin: 10px 15px;
     color: #fff;
 }
-.main{
+
+.main {
     background-color: rgba(0, 0, 0, 0.11);
     height: 900px;
     z-index: -100;
 }
+
 #a a {
     margin-left: 40px;
 }
