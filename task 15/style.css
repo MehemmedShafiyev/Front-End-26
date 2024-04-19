@@ -99,6 +99,7 @@ body {
 .box:hover{
     border: 2px solid #ff9a03;
     box-shadow: 0 0 5px;
+    transition: 0.1s;
 }
 .box:hover img{
     width: 356px;
@@ -272,6 +273,7 @@ a {
 .leg a{
     color:rgb(46, 46, 46);
 }
+
 
 
 

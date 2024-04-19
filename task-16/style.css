@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.box-row {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.box {
+    margin-top: 30px;
+    background-color: rgb(214, 214, 214);
+    width: 220px;
+    height: 250px;
+    border-radius: 20px;
+}
+.foot{
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 2%;
+}
