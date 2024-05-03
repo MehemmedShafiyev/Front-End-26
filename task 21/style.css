@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+display: flex;
+}
+.load-element{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    animation: load 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+.load-element:nth-child(2){
+    animation-delay: 0.2s;
+}
+.load-element:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+@keyframes load {
+    from{
+        scale: 1;
+    }
+    to{
+        scale: .5;
+    }
+}
