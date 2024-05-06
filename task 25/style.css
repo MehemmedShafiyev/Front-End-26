@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin-inline: 15%;
+}
+img{
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+}
+.container {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1 {
+    position: absolute;
+    z-index: 100;
+    width: 500px;
+    height: 300px;
+    background-image: url(earth-1);
+    background-color: blue;
+    border-radius: 20px;
+    border: 2px solid rgba(180, 180, 180, 0.445);
+}
+
+.box-2 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(197, 197, 197, 0.459);
+    border-radius: 20px;
+    border: 2px solid rgba(180, 180, 180, 0.445);
+}
+
+.box-2 p {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 290px;
+    font-size: 17px;
+    width: 200px;
+    height: auto;
+}
+
+.container:hover .box-1 {
+    
+    width: 350px;
+    transition: 1.2s;
+}
+
+.container:hover .box-2 {
+    transform: translateX(100px);
+    transition: 1.2s;
+}
+
+.container-2 {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-3 {
+    position: absolute;
+    z-index: 100;
+    width: 500px;
+    height: 300px;
+    background-image: url(sun-1);
+    background-color: blue;
+    border-radius: 20px;
+    border: 2px solid rgba(180, 180, 180, 0.445);
+}
+
+.box-4 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(197, 197, 197, 0.459);
+    border-radius: 20px;
+    border: 2px solid rgba(180, 180, 180, 0.445);
+}
+
+.box-4 p {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 290px;
+    font-size: 17px;
+    width: 200px;
+    height: auto;
+}
+
+.container-2:hover .box-3 {
+    
+    width: 350px;
+    transition: 1.2s;
+}
+
+.container-2:hover .box-4 {
+    transform: translateX(100px);
+    transition: 1.2s;
+}
