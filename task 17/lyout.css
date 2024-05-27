@@ -1,7 +1,6 @@
 .container {
-    width: 75%;
-    max-width: 1140px;
-    margin-inline: auto;
+    margin-inline: 25%;
+    
 }
 
 .row {
@@ -13,8 +12,6 @@
 .flex-direction {
     flex-direction: column;
 }
-
-
 
 [class^="col-"] {
     padding-inline: 15px;

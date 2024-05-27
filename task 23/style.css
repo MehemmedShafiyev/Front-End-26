@@ -19,7 +19,7 @@ header {
 
 .box {
     position: relative;
-
+    overflow: hidden;
     margin-inline: auto;
     width: 780px;
     height: 450px;
@@ -33,7 +33,7 @@ header {
 
 .item {
     position: absolute;
-    overflow: hidden;    
+    overflow: hidden;
     border: 1px solid rgb(255, 255, 255);
     transition: all 6s;
     height: 150px;
@@ -47,7 +47,7 @@ header {
 }
 
 .item1-1 {
-    animation: item1-1 4s ;
+    animation: item1-1 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
@@ -55,58 +55,64 @@ header {
 }
 
 
-.item1-2{
-    animation: item1-2 4s ;
+.item1-2 {
+    animation: item1-2 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transition: all 4s;
 }
 
-.item1-3{
-    animation: item1-3 4s ;
+.item1-3 {
+    animation: item1-3 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transition: all 4s;
 }
-.item2-1{
-    animation: item2-1 4s ;
+
+.item2-1 {
+    animation: item2-1 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transition: all 4s;
 }
-.item2-2{
-    animation: item2-2 4s ;
+
+.item2-2 {
+    animation: item2-2 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transition: all 4s;
 }
-.item2-3{
-    animation: item2-3 4s ;
+
+.item2-3 {
+    animation: item2-3 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transition: all 4s;
 }
-.item3-1{
-    animation: item3-1 4s ;
+
+.item3-1 {
+    animation: item3-1 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transition: all 4s;
 }
-.item3-2{
-    animation: item3-2 4s ;
+
+.item3-2 {
+    animation: item3-2 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     transition: all 4s;
 }
-.item3-3{
-    animation: item3-3 4s ;
+
+.item3-3 {
+    animation: item3-3 4s;
     animation-delay: 1s;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
@@ -117,100 +123,120 @@ header {
     0% {
         left: 0px;
     }
+
     50% {
         left: 260px;
         top: 0px;
-    }  
+    }
+
     100% {
         left: 260px;
         top: 150px;
     }
 
 }
-@keyframes item1-2{
-    0%{
+
+@keyframes item1-2 {
+    0% {
         top: 0px;
         left: 260px;
     }
-    100%{
+
+    100% {
         left: 0px;
         top: 0px;
     }
 }
-@keyframes item1-3{
-    0%{
+
+@keyframes item1-3 {
+    0% {
         top: 0px;
         right: 0px;
     }
-    100%{
+
+    100% {
         right: 0px;
         top: 150px;
     }
 }
-@keyframes item2-1{
-    0%{
+
+@keyframes item2-1 {
+    0% {
         left: 0px;
         top: 150px;
     }
-    100%{
+
+    100% {
         left: 0px;
         top: 300px;
     }
 }
-@keyframes item2-2{
-    0%{
-       left: 260px;
-       top: 150px; 
+
+@keyframes item2-2 {
+    0% {
+        left: 260px;
+        top: 150px;
     }
-    50%{
+
+    50% {
         top: 300px;
         left: 260px;
     }
-    100%{
+
+    100% {
         top: 298px;
         left: 520px;
     }
 }
-@keyframes item2-3{
-    0%{
-       right: 0px;
-       top: 150px; 
+
+@keyframes item2-3 {
+    0% {
+        right: 0px;
+        top: 150px;
     }
-    100%{
+
+    100% {
         right: 0px;
         top: 0px;
     }
 }
-@keyframes item3-1{
-  0%{
-    left: 0px;
-    bottom: 0px;
-  }
-  100%{
-    left: 0px;
-    bottom: 150px;
-  }
-}
-@keyframes item3-2{
-    0%{
-      bottom: 0px;
-      left: 260px;  
+
+@keyframes item3-1 {
+    0% {
+        left: 0px;
+        bottom: 0px;
     }
-    50%{
+
+    100% {
+        left: 0px;
+        bottom: 150px;
+    }
+}
+
+@keyframes item3-2 {
+    0% {
+        bottom: 0px;
+        left: 260px;
+    }
+
+    50% {
         left: 260px;
         bottom: 150px;
     }
-    100%{
+
+    100% {
         left: 260px;
         bottom: 300px;
     }
 }
-@keyframes item3-3{
-    0%{
+
+@keyframes item3-3 {
+    0% {
         right: 0px;
         bottom: 0px;
     }
-    100%{
+
+    100% {
         bottom: 0px;
         right: 260px;
     }
