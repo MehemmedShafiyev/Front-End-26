@@ -421,19 +421,267 @@ hansıki əməliyyat nəticəsi value = 10 üçün true və value = 20 üçün f
 // +71234567890
 
 
-let numbere = +prompt("Tell Number :(+7...)")
+// let numbere = +prompt("Tell Number :(+7...)")
 
 
-function calm() {
-    if ((number.length == 11) && (numbere[0] == "+") && (numbere[1] == "7")) {
-         console.log("True")
-    }
-    else {
-         console.log("False")
-    }
+// function calm() {
+//     if ((number.length == 11) && (numbere[0] == "+") && (numbere[1] == "7")) {
+//          console.log("True")
+//     }
+//     else {
+//          console.log("False")
+//     }
 
-}
-calm()
+// }
+// calm()
 
 
 
+// function myDisplayer(some) {
+//      document.getElementById("demo").innerHTML = some;
+// }
+
+// function myFirst() {
+//      myDisplayer("Hello");
+// }
+
+// function mySecond() {
+//      myDisplayer("Goodbye");
+// }
+
+// myFirst();
+// mySecond();
+
+
+
+
+//Agile task 01 
+//Arqumentsiz,Parametrsiz bir funksiya yazn.
+//funksiyada ("Hello world") 10 defe tekrarlansin.
+
+// let text = "Hello World!"
+// let txt = text.repeat(10)
+// function getRepeat(){
+//     console.log(txt) 
+// }
+// getRepeat()
+
+
+
+
+
+
+//task02
+
+// let text = "Hello World!"
+// let replay = +prompt("Tekrarlanma sayisini daxil edin")
+// let txt = text.repeat(replay)
+// function getRepeat() {
+//      console.log(txt)
+// }
+// getRepeat()
+
+
+
+
+
+
+//  Task 03
+
+// let a = prompt("birinci ededi daxil edin")
+// let b = prompt("ikinci ededi daxil edin")
+// let c = prompt("emeliyyat daxil edin( / * - + )")
+
+// function calc(){
+//    if (c == "/" ) {
+//     calc(a/b)
+//  }
+//  else if (c == "*" ) {
+//     console.log(a*b)
+//  }
+//  else if (c == "-" ) {
+//     console.log(a-b)
+//  }
+//  else if (c == "+" ) {
+//     console.log(a+b)
+//  }
+//  else{
+//     console.error("emeliyyati duzgun daxil edin")
+//  }  
+// }
+// calc()
+
+
+// Task-01
+// Konsola doğum tarixini çıxarın.
+// Adınız, cinsiniz və doğum tarixiniz olan user obyekti yaradın (name, gender, birthday). 
+// Konsola doğum tarixini çıxarın.
+
+
+// let  information = {
+//     name:"Rustem",
+//     gender: "Kişi",
+//     birthday: "18.08.2003",
+
+// }
+// console.log(information.birthday)
+
+
+
+
+
+// Task-02
+// Bu obyektə yaş (age) əlavə edin və doğum tarixini silin. 
+// Alınmış obyekti konsola çıxarın.
+
+
+// const information = {
+//     name: "Rustem",
+//     gender: "Kişi",
+//     age: "21",
+//     birthday: "18.08.2003"
+
+// }
+
+
+
+
+
+
+
+
+// foreach 
+// map 
+// find 
+// filter 
+// reduce 
+// some 
+// every 
+
+
+
+
+
+
+
+// Task-04
+// Müştəri Kredit kartı ilə işləmək üçün obyekt yaradın.
+// Müştərinin hesabı haqqında əsas məlumatları və onunla işləmə metodlarını əhatə edən client obyekti yaradın.
+//     =>client obyekti yaradın.
+//   Kredit kartı müştərisi üçün aşağıdakı xüsusiyyətlərə malik obyekt yaradın:
+//   - Tam adı müştərinin (fullName).
+//   - Kredit limiti (creditLimit).
+//   - Cari balans (balans).
+//   - Minimum ödənişin faizi (precentOfMinPayment).
+//     =>Cari balans əldə etmək üçün getBalance metodu əlavə edin.
+//   getBalance metodu, balans mənfi olarsa, müştərinin balansı və ya onun borcu haqqında bir mesaj qaytarır.
+//   Metodun çağırılma nümunəsi:
+//   console.log(client.getBalance()).
+//   Mesaj nümunələri:
+//   «Balansınız 3000»,
+//   «Borcunuz 2000».
+//      =>Minimum ödəniş məbləği üçün getMinPaymant metodunu əlavə edin.
+//   getMinPaymant metodu borc məbləği və minimum ödəniş faizinə əsasən formalaşan minimum 
+//   ödəniş məbləği haqqında mesaj qaytarır.
+//   Əgər borc yoxdursa, metod müvafiq mesajı qaytarır.
+//   Metodun çağırılma nümunəsi:
+//   console.log(client.getMinPaymant()).
+//   Mesaj nümunələri:
+//   «Minimum ödənişiniz 240»,
+//   «Sizin borcunuz yoxdur».
+//      =>Hesabdan pul silmək üçün withdraw metodu əlavə edin.
+//   withdraw metodu cari balansı parametr kimi ötürülən pul məbləği qədər azaldır.
+//   Mövcud vəsait kifayət deyilsə (cari balans və kredit limitinin cəmi), metod konsola müvafiq mesajı çıxarır.
+// client.widthdraw(900)
+//      =>Hesaba pul əlavə etmək üçün refill metodu əlavə edin.
+//   refill metodu parametr kimi qəbul edilən məbləğ qədər balansı artırır.
+
+
+
+
+
+// let clinet = {
+//     fullname: "Mehemmed Shafiyev",
+//     balance: 3000,
+//     creditLimit: 5000,
+//     minPercent: 18,
+//     getBalance() {
+//         if (this.balance < 0) {
+//             console.log(`Sizin borcunuz ${this.balance * (-1)}`)
+//         }
+//         else {
+//             console.log(`Sizin balansiniz ${this.balance} AZN `)
+//         }
+//     }
+// },
+//     refill() {
+
+//     }
+
+
+// clinet.getBalance()
+
+
+
+
+
+
+
+
+
+
+
+
+// Task-05
+// Kalkulyator obyekti yaradın.
+// Əsas riyazi hesablamaları yerinə yetirən və nəticəni yaddaşda saxlaya bilən kalkulyator obyekti yaradın.
+//   - Obyekt yaradın və toplama, çıxma, vurma, bölmə üçün metodlar əlavə edin.
+//   Metodlar parametr kimi 2 ədəd götürür və bu ədədlər üzərində müvafiq əməliyyatın nəticəsini qaytarır.
+//   Yaddaşla işləmək imkanı əlavə edin.
+//   - Obyektə dəyəri saxlamaq üçün özəllik əlavə edin. Onunla işləmək üçün metodlar yaradın:
+//   dəyərin yaddaşda saxlanması, yaddaşın təmizlənməsi, yaddaşdan dəyərin oxunması.
+
+// const calculator ={
+//  memory:0,
+
+// add:function(a,b){
+//     return a+b
+// },
+// subtract:function(a,b){
+//     return a-b
+// },
+// multiply:function(a,b){
+//     return a*b
+// },
+// divide:function(a,b){
+//     if(b===0){
+//         console.log("0-a bolme yoxdur.")
+//     }
+//     else{
+//         return a/b
+//     }
+// },
+
+// storeInMemory:function(value){
+//  this.memory= value;
+// },
+// clearMemory:function(){
+//  this.memory = 0;
+// },
+// readMemory:function(){
+//   return  this.memory; 
+// },
+// }
+
+
+// console.log(calculator.add(5,6));
+// console.log(calculator.subtract(7,6));
+// console.log(calculator.multiply(2,4));
+// console.log(calculator.divide(8,2));
+
+
+// calculator.storeInMemory(555);
+// console.log(calculator.readMemory());
+
+// calculator.clearMemory();
+// console.log(calculator.readMemory());
