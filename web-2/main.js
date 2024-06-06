@@ -685,3 +685,175 @@ hansıki əməliyyat nəticəsi value = 10 üçün true və value = 20 üçün f
 
 // calculator.clearMemory();
 // console.log(calculator.readMemory());
+
+
+
+
+// Task-01
+// İkirəqəmli ədədi üçrəqəmli olana qədər artırın.
+// İstifadəçidən ikirəqəmli ədəd daxil etməsini xahiş edin. 
+// Bu rəqəmi üçrəqəmli olana kimi 7 vahid artırın. 
+// Son dəyəri konsola çıxarın.
+
+
+// let a = +prompt("iki regemli eded daxil edin")
+
+// let i = a
+// while (i < 100) {
+//     i += 7
+//     console.log(i)
+// }
+
+
+// Task-02
+// Konsola N dəfə «I know how to use cycles» mesajı çıxaran proqram yazın.
+// Proqram N ədədini istifadəçidən soruşur.
+
+
+
+// const n = prompt("say daxil edin")
+// let i=0
+
+// while (i < n) {
+
+//     console.log( "I know how to use cycles")
+//     i++
+// }
+
+
+
+
+
+
+// Task-03
+// Sonu 0 ilə bitən bütün üçrəqəmli ədədləri konsola çıxaran proqram yazın.
+
+// i = 100
+// while (i < 1000) {
+
+//     if (i %5 == 0 ) {
+//         console.log(i)
+
+//     } i++
+// }
+
+
+
+// Task-04
+// Bütün ikirəqəmli tək ədədlərin cəmini konsola çıxaran proqram yazın.
+
+// i = 10
+// while (i < 100) {
+//     if (i % 2 !== 0) {
+//         console.log(i)
+//     }
+//     i++
+// }
+
+
+
+
+
+
+// Task-05
+// İstifadəçinin daxil etdiyi ədədin bölünəni olan bütün üçrəqəmli ədədlərin cəmini hesablayan proqram yazın.
+
+// function dovr() {
+//     let eded = prompt("eded daxil edin")
+//     i =100 
+//     cem =0
+//     while(i <= 999) {
+//       if(i % eded == 0) {
+//         cem += i  
+//       }
+//        i++
+//     }
+//     console.log("cem "+cem)
+//   }
+
+//   dovr()
+
+
+
+
+
+// Task-06
+// Sadə ədədləri çıxaran proqram yazın.
+// İstifadəçidən n ədədini soruşan və n-dən 0-a kimi bütün sadə ədədləri azalan ardıcıllıqla çıxaran proqram yazın.
+// «23» ədədi daxil edildikdə, konsola «23», «19», «17», «13», «11», «7», «5», «3», «2», «1» ardıcıllığı çıxarılmalıdır.
+
+// let n = prompt("eded daxil edin")
+// while (n > 0) {
+//     if (n % n == 0 && n % 1 == 0) {
+
+//         if (n % 2 !== 0) {
+//             if (n % 3 !== 0) {
+//                 if (n % 5 !== 0) {
+//                     if (n % 7 !== 0) {
+                       
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+
+// }
+
+
+// function sadeEded() {
+//     let n = prompt("eded daxil edin");
+//     while(n >= 0) {
+//       let sadedi = true;
+
+//       if (n <= 1) {
+//           sadedi = false;
+//       } else {
+//           let i = 2
+//           while(n > i) {
+//                if(n % i === 0) {
+//                   sadedi = false;
+//               break;
+//                 }
+//                 i++;
+//           }
+
+//       }
+
+//       if(sadedi) {
+//           console.log(n);
+//       }
+//       n--;
+//     }
+//   }
+
+//   sadeEded()
+
+
+// function sadeEded() {
+//     let n = prompt("Eded daxil edin");
+
+//     while (n >= 0) {
+//         let sadedi = true;
+
+//         if (n <= 1) {
+//             sadedi = false;
+//         } else {
+//             let i = 2;
+//             while (i * i <= n) {
+//                 if (n % i === 0) {
+//                     sadedi = false;
+//                     break;
+//                 }
+//                 i++;
+//             }
+//         }
+
+//         if (sadedi) {
+//             console.log(n)
+//         }
+//         n--;
+//     }
+// }
+
+// sadeEded()

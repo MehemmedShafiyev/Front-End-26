@@ -7,7 +7,7 @@
 //         star = star + '*';
 //     }
 //     star += '\n'
-       
+
 // }
 // console.log(star);
 
@@ -38,7 +38,7 @@
 //     }
 
 
-       
+
 // }
 // calc()
 
@@ -97,7 +97,7 @@
 
 
 
- 
+
 
 
 
@@ -192,12 +192,132 @@
 
 
 //task-01
+
 // İstifadəçidən beş ədəd elementi daxil etməyi tələb edən, onları
 // massilə yazan və ən kiçik ədədi konsola çıxaran proqram yazın.
+
 
 // let eded = prompt("5 eded daxil edin").split("");
 // let mineded = Math.min(eded[0],eded[1],eded[2],eded[3],eded[4]);
 // console.log(mineded)
+
+
+
+
+
+
+
+
+//Task-02 
+
+// 4 elementli number Array(massiv) yaradın,[0, 1, 2, 3, 4] ilk
+// element-I silin. Sonuna 5 əlavə edin.
+
+
+// const number = [0,1,2,3,4];
+// number.shift();
+// number.push(5);
+// console.log(number)
+
+
+
+
+
+
+
+
+
+
+//Task-03
+// Rəqəmlər massivi verilmişdir. Aşağıdakı kimi dəyişdirilən orijinal
+// massivin elementlərindən ibarət yeni massiv yaradın:
+// - mənfi ədədlər müsbət olublar;
+// - müsbət ədədlər ikiqat artırılıb.
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Task-04
+
+// 5 rəqəmdən ibarət massiv yaradın. Orijinal massivin kopyasini
+// çıxarın və yeni massivin bütün elementlərini 5 vahid artırın.
+// Orijinal massivin dəyişmədiyini yoxlayın.
+
+
+// let orijinalmas = [1, 2, 3, 4, 5];
+
+// let copymas = orijinalmas.map(orijinalmas => orijinalmas+5)
+// console.log(orijinalmas)
+// console.log(copymas)
+
+
+
+
+
+//Task-05 
+
+// «Kim milyonçu olmaq istəyir» oyununu tərtib edin. Hər sualın
+// dörd cavab variantı və bir doğru cavabı olmalıdır. Oyun 5 sualdan
+// ibarət olacaq. İstifadəçi cavabını daxil etdikdən sonra, doğru olubolmadığını öyrənəcək.
+// Hər doğru cavab üçün 100 xal qazanılacaq. Oyun bitdikdə,
+// istifadəçinin toplam qazancı göstəriləcək.
+// Bütün sualların cavabı düzgündürsə, "Siz qalib gəldiniz", suala səhv
+// cavab olduqda - "Siz məğlub oldunuz" xəbərdarlığı göstərin.
+//  Sual verən və cavabı yoxlayan funksiya yazın. Suallar alert()
+// metodunda göstəriləcək. Funksiya sualı, cavab variantlarını
+// parametr kimi qəbul edir, mesaj generasiya edir və
+// oyunçunun düzgün cavabı seçib-seçmədiyini nümayiş
+// etdirən boolean dəyəri qaytarır.
+//  "50-50" kömək işarəsi əlavə edin. Sualların hər birində
+// istifadəçi “50/50” seçim etdikdə eyni pəncərə göstərilir,
+// hansıki orada 4 əvəzinə cəmi 2 cavab olur. İkinci dəfə
+// "50/50" daxil etməyə çalışıldığı zaman "Siz artıq köməkdən
+// istifadə etmisiniz" sözləri ilə xəbərdarlıq görünür.
+
+
+
+// let sual1 = {
+//     sual: "İtalya Serie A'da 2022-2023 sezonunda, 33 yıl aradan sonra tekrar şampiyon olan Napoli futbol takımının stadının adı nedir?",
+//     secA: "a- Roberto Baggio",
+//     secB: "b- Diego Armando Maradona",
+//     secC: "c- Zinedine Zidane",
+//     secD: "d- Pele",
+//     cavab: "b- Diego Armando Maradona",
+//     yariyariya: "secB,secA",
+// }
+// let sual2 = {
+//     sual: "100'e, 100'ün yüzde 10'u eklendiğinde çıkan sonuç 100'ün yüzde kaçı olur?",
+//     secA: "a- Yüzde 10'u",
+//     secB: "b- Yüzde 100'ü",
+//     secC: "c- Yüzde 110'u",
+//     secD: "d- Yüzde 1000'i",
+//     cavab: "c- Yüzde 110'u",
+//     yariyariya: "secB,secC",
+
+// }
+// console.log(alert(prompt(sual2.sual)))
+// function fullname (a, b){
+//       let user ={
+//         ad:a,
+//         soyad : b
+//       }
+//       return user
+// }
+// console.log(fullname("Mehemmed","Shafiyev" ))
+
+
+
+// let time = new Date()
+
 
 
 
