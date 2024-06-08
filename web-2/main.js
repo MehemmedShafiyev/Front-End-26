@@ -790,7 +790,7 @@ hansıki əməliyyat nəticəsi value = 10 üçün true və value = 20 üçün f
 //             if (n % 3 !== 0) {
 //                 if (n % 5 !== 0) {
 //                     if (n % 7 !== 0) {
-                       
+
 //                     }
 //                 }
 //             }
@@ -857,3 +857,100 @@ hansıki əməliyyat nəticəsi value = 10 üçün true və value = 20 üçün f
 // }
 
 // sadeEded()
+
+
+
+
+
+
+// Task-08
+// İstifadəçidən mətn daxil etməsini tələb edən və mətn elementlərini əks qaydada düzən proqram tərtib edin.
+
+
+
+// let text = prompt("metn daxil edin").split(" ")
+// let reverse = text.reverse("")
+// let reverseText=text.join(" ")
+// console.log(reverseText)
+
+
+
+
+
+
+// let text = prompt("Metn daxil edin")
+// let reverse = ""
+
+// for (i = text.length-1; i >= 0; i--) {
+//     if (text[i] !== " ") {
+//        reverse+=text[i]
+//     }
+//      else{
+
+//         reverse=""
+//     }
+// }
+// console.log(reverse)
+
+
+
+
+
+
+
+
+// let text = " salam necesen yaxsi" 
+// let reverse = ""
+
+
+// for(i=text.length-1;i>=0;i--){
+//     if (text[i] == ' ') {
+//         for (let j = i; j < text.length; j++) {
+
+//             reverse += text[j]
+
+//         }
+//     }else{
+//         console.log(reverse)
+//         reverse = ''
+
+//     }
+// }
+// console.log(reverse)
+
+
+
+
+
+// Task-09
+// Mətndə "." hərfinin ilk dəfə hansı indeksdə yerləşdiyini tapan proqram tərtib edin.
+
+// let text = "men.sen,o.biz.siz"
+
+// for (i = 0; i < text.length; i++) {
+//     if (text[i]===".") {
+//        console.log(i)
+//         break;
+//     }
+
+// }
+
+
+
+
+
+
+
+// Task-10 (isNaN)
+// Mətndə rəqəmlərin olub olmadığını yoxlayan proqram yazın.
+// İstifadəçidən mətn daxil etməsini tələb edən və mətndə rəqəmlərin
+// olub-olmaması barədə konsola mesaj çıxaran proqram tərtib edin.
+
+let text = "men9.gkr6in"
+let num = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+for (i = 0; i < text.length; i++) {
+    if (text[i] == num) {
+        console.log("Metnde reqem var")
+    }
+}
+console.log(text)
